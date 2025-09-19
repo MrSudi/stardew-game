@@ -72,7 +72,7 @@ function setup() {
     while (plataformas.length < 3) {
         let plataforma = new plataformas.Sprite();
         plataforma.x = plataformas.length * 220;
-        plataforma.y = plataformas.length * 120+200;
+        plataforma.y = plataformas.length * height/6+200;
         plataforma.addAni('plataforma','assets/plataform_1.png');
         plataforma.scale = 0.5;
         plataforma.debug = false;
@@ -286,4 +286,5 @@ function update() {
        obstacles[1].x = -1000;
        obstacles[2].x = -1000;
    }
+
 }
