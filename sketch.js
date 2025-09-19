@@ -46,7 +46,7 @@ function setup() {
     key = new Sprite();
     key.addAni('key','assets/Key.png');
     key.x = 60;
-    key.y = 100;
+    key.y = height/8;
     key.static = true;
     key.scale = 0.2;
     key.w= 25;
@@ -288,3 +288,4 @@ function update() {
    }
 
 }
+
